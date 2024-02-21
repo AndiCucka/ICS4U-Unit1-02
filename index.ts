@@ -19,7 +19,7 @@ if (isNaN(massOfObject) == true || massOfObject < 0) {
   // process
   const Energy = massOfObject * Math.pow(299 792 458, 2)
   // output
-  console.log(`The area of a circle with a radius of ${radiusOfCircle} mm is ${areaOfCircle.toFixed(3)} mm².`)
+  console.log(`An object with a mass of ${massOfObject}kg would produce ${Energy.toFixed(3)}J.`)
 }
 
 console.log("\nDone.")
