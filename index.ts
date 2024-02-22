@@ -17,9 +17,9 @@ if (isNaN(massOfObject) == true || massOfObject < 0) {
   console.log("Invalid input.")
 } else {
   // process
-  const Energy = massOfObject * Math.pow(299792458, 2)
+  const Energy = massOfObject * Math.pow(2.99e8, 2)
   // output
-  console.log(`An object with a mass of ${massOfObject}kg would produce ${Energy}J.`)
+  console.log(`An object with a mass of ${massOfObject}kg would produce ${Energy} J of energy.`)
 }
 
 console.log("\nDone.")
